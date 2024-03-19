@@ -1,5 +1,5 @@
 {
-  "name": "say-hello",
+  "name": "notifier",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "bin": {
-    "hello": "./hello.js"
+    "patch-package": "./hello.js"
   }
 }
