@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "bin": {
-    "patch-package": "./hello.js"
+    "hello": "./hello.js"
   }
 }
