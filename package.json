@@ -1,8 +1,9 @@
 {
-  "name": "notifier",
+  "name": "say-hello",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,6 +11,9 @@
   "author": "",
   "license": "ISC",
   "bin": {
-    "hello": "./hello.js"
+    "patch-package": "./hello.js"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
   }
 }

