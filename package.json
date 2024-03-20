@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "bin": {
-    "patch-package": "./hello.js"
+    "hello": "./hello.js"
   },
   "dependencies": {
     "node-fetch": "^3.3.2"
